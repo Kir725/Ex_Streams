@@ -20,7 +20,7 @@ public class Main {
                 "just", "only", "again",
                 "often", "still", "already",
                 "almost", "enough", "very",
-                 "now", "usually",
+                "now", "usually",
                 "quickly", "slowly"));
 
 
@@ -30,9 +30,9 @@ public class Main {
 
 
         System.out.println("=========AvgLength===========");
-        System.out.println(StreamUtil.getAvgLength(testList)+"\n");
+        System.out.println(StreamUtil.getAvgLength(testList) + "\n");
         System.out.println("=========All strings with max length===========");
-        System.out.println(StreamUtil.maxLengthStrings(testList)+"\n");
+        System.out.println(StreamUtil.maxLengthStrings(testList) + "\n");
         System.out.println("=========First 100 tokens===========");
         System.out.println(StreamUtil.findFirstHundredTokens(pathTestToken) + "\n");
         System.out.println("=======Words with five distinct vowels==========");
